@@ -1,0 +1,166 @@
+
+{/*loading effect*/}
+
+
+
+.cards{
+    display: inline-block;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1.5vw;
+    cursor:pointer;
+    width: 15vw;
+    height:20vw;
+    position: relative;
+    
+    
+}
+
+.cards:hover {
+    transform: scale(1.2);
+    z-index: 1000;
+    
+}
+
+.cardimg {
+    height: 40vh;
+}
+
+.cardOverlay {
+    position: absolute;
+    bottom: 0px;
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    justify-content: flex-end;
+    opacity: 0;
+    
+}   
+
+.cardOverlay:hover {
+    opacity: 1;
+}
+
+.cardtitle {
+    font-weight: 200;
+    font-size: 1rem;
+    margin-bottom: 0.4rem;
+}
+
+.cardruntime {
+    font-size: .75rem;
+    margin-bottom: 0.25rem;
+}
+
+.cardrating {
+    float: right;
+}
+
+.carddescription {
+    font-style: italic;
+    font-size: .75rem;
+    margin-bottom: 0.25rem;
+}
+
+
+
+@media (max-width:480px){
+    .cards{
+        display: inline-block;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 1vw;
+        cursor:pointer;
+        width: 80vw;
+        height:50vw;
+        position: relative;
+        
+        
+    }
+    
+    .cards:hover {
+        transform: scale(1.2);
+        z-index: 1000;
+        
+    }
+    
+    .cardimg {
+        height: 40vh;
+        width: 80vw;
+    }
+    
+    .cardOverlay {
+        position: absolute;
+        bottom: 0px;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: flex-end;
+
+        
+    }   
+    
+    .cardtitle {
+        font-weight: 200;
+        font-size: 2vw;
+        margin-bottom: 0.4rem;
+    }
+    
+    .cardruntime {
+        font-size: .75rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    .cardrating {
+        float: right;
+    }
+    
+    .carddescription {
+        font-style: italic;
+        font-size: .75rem;
+        margin-bottom: 0.25rem;
+    }
+    
+    
+    
+}
+
+@media (min-width:481px) and (max-width:767px){
+    .cards{
+        display: inline-block;
+        border-radius: 8px;
+        overflow: hidden;
+        margin: 1vw;
+        cursor:pointer;
+        width: 40vw;
+        height:50vw;
+        position: relative;
+        
+        
+    }
+    
+    .cards:hover {
+        transform: scale(1.2);
+        z-index: 1000;
+        
+    }
+    
+    .cardimg {
+        height: 40vh;
+        width: 40vw;
+    }
+    
+    .cardOverlay {
+        position: absolute;
+        bottom: 0px;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        width: 85%;
+        justify-content: flex-end;
+        
+    }   
+    
+}

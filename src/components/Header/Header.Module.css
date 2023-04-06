@@ -1,0 +1,76 @@
+body{
+  
+  background: #301a1a;
+}
+.header {
+  position: fixed;
+  top:0;
+  z-index: 10000;
+  backdrop-filter: blur(12px);
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+
+}
+
+a > span {
+  margin-top: 1vh;
+  margin-left: 10vw;
+  font-size: 1.8vw;
+  font-weight: 500;
+  cursor: pointer;
+  color: #e02f2f;
+}
+
+a > span:hover {
+  color: yellow;
+  font-size: 1.6vw;
+  transform: scale(1.2);
+}
+
+.favicon{
+  margin-right: 6vw;
+}
+
+
+@media (max-width:480px){
+  a > span {
+    margin-top: 1vh;
+    margin-left: 10vw;
+    font-size: 2.2vw;
+    font-weight: 500;
+    cursor: pointer;
+    color: #e02f2f;
+  }
+
+  a > span:hover {
+    color: yellow;
+    font-size: 1.6vw;
+  }
+
+  .favicon{
+    margin-right: 6vw;
+  }
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

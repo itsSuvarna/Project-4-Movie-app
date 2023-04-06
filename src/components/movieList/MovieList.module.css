@@ -1,0 +1,14 @@
+.MovieList {
+    padding: 0 3rem 3rem 3rem;
+}
+
+.listtitle {
+  font-size: 30px;
+   margin:  2.5rem;
+}
+
+.listcard{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: center;
+}

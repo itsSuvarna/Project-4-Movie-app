@@ -1,0 +1,30 @@
+h1{
+    padding-left: 45vw;
+    margin-top: 12vh;
+    color: floralwhite;
+    font-weight: 200;
+}
+
+.movieposter{
+    display: flex;
+    height: 45vh;
+    width: 45vw;
+    margin-left: 30vw;
+    margin-top: -5vh;
+}
+.moviename{
+    color: aliceblue;
+}
+.movieruntime{
+    display: flex;
+    flex-direction: column;
+    color: floralwhite;
+    margin-left: 45vw;
+    margin-top:3vh;
+    }
+
+    .favourite{
+        margin-left: 48vw;
+        
+
+    }

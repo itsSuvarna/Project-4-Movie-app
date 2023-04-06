@@ -1,0 +1,20 @@
+body{
+  overflow-x: hidden;
+}
+bode::-webkit-scrollbar{
+  display: none;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+.appheader{
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  backdrop-filter: blur(12px);
+  height: 20vh;
+
+  
+}
